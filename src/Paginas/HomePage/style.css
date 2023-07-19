@@ -1,0 +1,47 @@
+.FunçõesContainer {
+  background-color: rgb(189, 189, 189);
+  width: 40%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 7px;
+  box-shadow: 1px 1px 5px black;
+}
+
+.Função {
+  width: 90%;
+  height: 20%;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 1px 1px 5px black;
+  background-color: rgb(224, 224, 224);
+}
+
+.Rotulos {
+  width: 40%;
+  height: 50%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Rotulos > h1 {
+  opacity: 0;
+}
+
+.DuplaLabel {
+  width: 90%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Icone {
+  width: 50px;
+  height: 50px;
+}

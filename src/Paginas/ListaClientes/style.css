@@ -1,0 +1,23 @@
+.ContainerBusca {
+  width: 50%;
+  height: 60%;
+  background-color: rgb(189, 189, 189);
+  border-radius: 7px;
+  box-shadow: 1px 1px 5px black;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.Busca {
+  width: 70%;
+  height: 7%;
+  border: none;
+  border-radius: 7px;
+  background-color: rgb(224, 224, 224);
+  margin: 1%;
+}
+
+.Busca::placeholder {
+  text-align: center;
+}

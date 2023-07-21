@@ -1,3 +1,21 @@
+.Header {
+  width: 100%;
+  height: 10%;
+  background-color: #71c8e5;
+  position: absolute;
+  top: 0;
+  box-shadow: 1px 1px 7px black;
+}
+
+.Header > img {
+  height: 85%;
+  width: 15%;
+  transform: translate(0%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 1%;
+}
+
 .FunçõesContainer {
   background-color: rgb(189, 189, 189);
   width: 40%;
@@ -10,38 +28,40 @@
   box-shadow: 1px 1px 5px black;
 }
 
-.Função {
+.DuplaLabel {
   width: 90%;
   height: 20%;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.Botao {
+  width: 100%;
+  height: 100%;
   border-radius: 10px;
   border: none;
   box-shadow: 1px 1px 5px black;
   background-color: rgb(224, 224, 224);
-}
-
-.Rotulos {
-  width: 40%;
-  height: 50%;
+  top: 0;
+  left: 0;
   position: absolute;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
 }
 
-.Rotulos > h1 {
-  opacity: 0;
-}
-
-.DuplaLabel {
-  width: 90%;
-  height: 20%;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+.Texto {
+  position: absolute;
+  transform: translate(0%, -100%);
+  top: 50%;
+  left: 20%;
 }
 
 .Icone {
   width: 50px;
   height: 50px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 10%;
 }

@@ -7,7 +7,7 @@
   background-color: rgb(189, 189, 189);
   position: relative;
   border-radius: 10px;
-  box-shadow: 1px 1px 5px black;
+  box-shadow: 1px 1px 8px black;
 }
 
 .leftSide {
@@ -22,11 +22,11 @@
 
 .Logo {
   border-radius: 10px;
-  width: 40%;
-  height: 40%;
+  width: 75%;
+  height: 75%;
 }
 
-.Nome {
+.Marca {
   position: relative;
   width: 80%;
   height: 20%;
@@ -72,7 +72,7 @@
 }
 
 .Enviar {
-  background-color: rgb(2, 133, 26);
+  background-color: #71c8e5;
 }
 
 .FazerConta {
@@ -80,6 +80,12 @@
   justify-content: space-evenly;
   flex-direction: column;
   height: 10%;
+  width: 60%;
+}
+
+.FazerConta > h3 {
+  padding: 0;
+  margin: 0;
 }
 
 #Cadastrar {
